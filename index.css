@@ -1,0 +1,79 @@
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    width: 100%;
+  }
+.navi li {
+    float: left;
+}
+.navi li a {
+    display: block;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    background-color: blue;
+}
+.navi li a:hover:not(.active){
+    background-color: lightblue;
+}
+.navi .active{
+    background-color: mediumblue;
+}
+.navi ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.background{
+    background-image: url(i101/images/IMG_3156.jpeg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading {
+    margin-top: 100px;
+}
+.cell{
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: slategray;
+    border-width: 5px;
+    padding: 15px;
+}
+.blankspace {
+    margin: 20px;
+}
+.font{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+.font2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+.email{
+    color: blue;
+    text-decoration: underline;
+    
+}
+.effect{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+img{
+    border: 5px solid cornflowerblue;
+    border-radius: 25px;
+}
+.title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: cornflowerblue;
+    text-decoration: underline;
+    font-size: xx-large;
+    padding: 5px
+}
