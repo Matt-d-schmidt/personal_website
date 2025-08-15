@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.navi li {
+    float: left;
+}
+
+.navi li a {
+    display: block;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    background-color: blue;
+    text-decoration: none;
+}
+
+.navi li a:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+.navi .active {
+    background-color: mediumblue;
+    transition: 0.3s
+}
+
+.navi ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.background {
+    background-image: url(i101/images/IMG_3156.jpeg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading {
+    margin-top: 100px;
+}
+
+.cell {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: slategray;
+    border-width: 5px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.blankspace {
+    margin: 20px;
+}
+
+.font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+
+.font2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+.email {
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.effect {
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
+img {
+    border: 5px solid cornflowerblue;
+    border-radius: 25px;
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: cornflowerblue;
+    text-decoration: underline;
+    font-size: xx-large;
+    padding: 5px
+}
+
+.btn {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: darkblue;
+    transition: background-color 0.3s;
+    transform: scale(1.1);
+}
